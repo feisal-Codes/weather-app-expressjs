@@ -36,8 +36,8 @@ app.get("/about",(req, res)=>{
 app.get("/contact", (req, res)=>{
     res.render("contact",{
         name:"Feisal Mohamed",
-        number:"0722978580",
-        address:"Tudor, Ocean View ",
+        number:"+25472297****",
+        address:"official@gmail.com ",
         title:"Contact us"
     },
     )

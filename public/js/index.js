@@ -25,13 +25,13 @@ messageTwo.textContent ="";
           caption.textContent= result.Weather_Description 
           messageOne.textContent = "Weather Data for " + result.address;
           messageTwo.textContent =
-            "Temperature: " +
-            result.weatherData.temperature +
+            "The temperature is currently at  " +
+            result.weatherData.temperature + " degrees celcius" +
             "," +
-            " Humidity:" +
+            "with humidity of " +
             result.weatherData.humidity 
 
-          // console.log(result.weatherData);
+          console.log(result.weatherData);
         }
       });
     }

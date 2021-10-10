@@ -2,31 +2,55 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css"/>
-            <link rel="icon" href="/images/weather.png"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="/images/weather.png" />
 
 
     <title>contact</title>
 </head>
+
 <body>
-    <main>
     {{>header}}
-    <ul>
-    <li>Name:{{name}},</li>
-        <li>Phone Number:{{number}},</li>
-    <li>Location:{{address}},</li>
-</ul>
 
-</main>
-  <footer>
+    <main>
+        {{!-- <ul>
+            <li>
+                <h2>Name: {{name}},</h2>
+            </li>
+            <li>
+                <h2>Phone Number:{{number}}</h2>
+            </li>
+            <li>
+                <h2>Location: {{address}}</h2>
+            </li>
+        </ul> --}}
+        <div class="card">
+            <div class="img">
+                <img src="/images/robot.jpg" width="100%" height="100%"  alt="robot">
+            </div>
+            <div class="text">
+                <p><b>Name</b>:{{name}}</p>
+                <p><b>Number</b>:{{number}}</p>
+                <p><b>Email</b>: {{address}}</p>
 
 
-      {{>footer}}
+            </div>
+        </div>
 
-  </footer>
+
+
+    </main>
+    <footer>
+
+
+        {{>footer}}
+
+    </footer>
 </body>
+
 </html>

@@ -1,9 +1,9 @@
 body{
-    background-color:whitesmoke;
+    /* background-color: #eeeaea; */
     /* text-align: center; */
-    color:rgb(128, 113, 113);
+    background-color: skyblue;
     display:flex;
-    min-height: 100vh;
+    min-height: 90vh;
     flex-direction: column;
     max-width: 900px;
     margin: 20px auto;
@@ -14,7 +14,7 @@ body{
 
 ul{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 
 
 }
@@ -29,7 +29,7 @@ li{
 }
 .weather{
     color:black;
-    flex-grow: 0.6;
+    flex-grow: 0.9;
     
     
 
@@ -37,6 +37,34 @@ li{
 
 }
 
+.card{
+    background-color: rgb(226, 219, 219);
+    width: 400px;
+    height: 180px;
+    display: flex;
+    /* padding:20px; */
+    padding-left:0 ;
+    /* justify-content: space-around; */
+    margin:30px auto;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px 2px rgb(192, 186, 186);
+    transition: transform .2s;}
+.card:hover{
+    /* width:400px; */
+    transform: scale(1.3)}
+.card p{
+    text-align: left;
+}
+.img{
+    width:150px;
+    margin-right:10px ;
+
+}
+
+img{
+    border-radius: 10px;
+
+}
 .custom{
     display:flex;
     max-width: 1000px;
@@ -54,15 +82,24 @@ a{
     color:black
 }
 a:visited{
-    color:purple
+    color:black
 }
  main{
      flex-grow: 1;
      margin: 10px auto;
-     background-color: #eeeaea;
      min-width: 80%;
      text-align: center;
      
  }
- 
+
+ .myimg{
+
+     width:400px;
+ }
+.mytext{
+    width:400px;
+text-decoration: ivory;
+    margin:0 auto
+}
+
 
