@@ -31,7 +31,7 @@ messageTwo.textContent ="";
             " Humidity:" +
             result.weatherData.humidity 
 
-          console.log(result.weatherData);
+          // console.log(result.weatherData);
         }
       });
     }
